@@ -16,7 +16,8 @@ import {
   ArrowRight,
   ShieldCheck,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  MessageSquare
 } from 'lucide-react';
 
 // --- Components ---
@@ -697,6 +698,33 @@ export default function App() {
             </motion.div>
           </Container>
         </footer>
+
+        {/* Floating WhatsApp Button */}
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.5, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ delay: 2, duration: 0.5, type: "spring" }}
+          className="fixed bottom-6 right-6 z-50 md:bottom-10 md:right-10"
+        >
+          <button
+            onClick={handleCTA}
+            className="relative group flex items-center justify-center w-16 h-16 bg-[#25D366] text-white rounded-full shadow-[0_10px_40px_rgba(37,211,102,0.4)] hover:shadow-[0_15px_50px_rgba(37,211,102,0.6)] transition-all duration-300 hover:scale-110 active:scale-95"
+          >
+            {/* Fake Notification Badge */}
+            <span className="absolute -top-1 -right-1 flex h-6 w-6">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-6 w-6 bg-red-500 text-[10px] items-center justify-center font-bold">1</span>
+            </span>
+            
+            <MessageSquare className="w-8 h-8 fill-current" />
+            
+            {/* Hover Tooltip/Label */}
+            <div className="absolute right-full mr-4 bg-white text-black text-sm font-bold py-2 px-4 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none hidden md:block">
+              Falar com um especialista
+              <div className="absolute top-1/2 -right-1 -translate-y-1/2 w-2 h-2 bg-white rotate-45"></div>
+            </div>
+          </button>
+        </motion.div>
       </div>
     </div>
   );
