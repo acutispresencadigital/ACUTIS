@@ -169,16 +169,16 @@ export default function App() {
               <div className="flex flex-col items-center gap-8 mb-10">
                 <div className="space-y-4">
                   <p className="text-2xl md:text-3xl font-bold text-white max-w-[700px] leading-[1.2]">
-                    Se a resposta for "não sei", você não tem um sistema de vendas.
+                    Se a resposta for "não", o problema não é o Instagram.
                   </p>
                   <p className="text-zinc text-lg font-medium">
-                    Você tem um perfil dependente de algoritmo de redes sociais.
+                    É que você não tem um site preparado para receber clientes.
                   </p>
                 </div>
 
                 <div className="max-w-[640px] p-1 border-white/[0.08]">
                   <p className="text-xl md:text-2xl text-zinc leading-relaxed font-medium italic">
-                    E enquanto você tenta chamar atenção com posts… <span className="text-white font-bold">seus concorrentes estão sendo encontrados</span> no Google por clientes prontos para comprar.
+                    Enquanto você tenta chamar atenção com posts… <span className="text-white font-bold">seus concorrentes estão sendo encontrados</span> no Google por clientes prontos para comprar.
                   </p>
                 </div>
 
@@ -187,17 +187,17 @@ export default function App() {
                     PARE DE PERDER CLIENTES TODOS OS DIAS
                   </h3>
                   <Paragraph className="text-center">
-                    <span className="text-white font-bold">Um site profissional + presença estruturada no Google</span> para você ser a primeira opção de quem já está procurando pelo seu serviço.
+                    Um site profissional, estruturado para transformar visitantes em conversas no WhatsApp.
                   </Paragraph>
-                  <div className="text-2xl md:text-3xl font-bold text-white tracking-tight">
-                    Menos tempo respondendo curiosos. <br />
-                    <span className="text-brand-blue italic">Mais conversas com quem quer fechar.</span>
+                  <div className="text-2xl md:text-3xl font-bold text-white tracking-tight text-center">
+                    Sem depender de conteúdo. Sem depender de algoritmo. <br />
+                    <span className="text-brand-blue italic">Menos curiosos. Mais pessoas prontas para fechar.</span>
                   </div>
                 </div>
               </div>
 
               <Button conversion onClick={handleCTA} className="w-full sm:w-auto">
-                Quero minha estrutura profissional
+                Quero meu site profissional
               </Button>
               <p className="text-[12px] opacity-70 mt-4 font-medium text-zinc">
                 Sem compromisso • Resposta rápida
@@ -226,10 +226,10 @@ export default function App() {
                     <p className="text-[13px] font-bold uppercase tracking-widest text-zinc/60">HOJE FUNCIONA ASSIM:</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div className="p-10 border border-white/[0.08] rounded-[6px]">
-                        <p className="text-[17px]"><span className="text-brand-blue font-bold block text-2xl mb-2">Se você posta</span> aparece</p>
+                        <p className="text-[17px]"><span className="text-brand-blue font-bold block text-2xl mb-2">Postou?</span> Você aparece.</p>
                       </div>
                       <div className="p-10 border border-white/[0.08] rounded-[6px] opacity-25">
-                        <p className="text-[17px]"><span className="text-white font-bold block text-2xl mb-2">Se não posta</span> desaparece</p>
+                        <p className="text-[17px]"><span className="text-white font-bold block text-2xl mb-2">Não postou?</span> Você desaparece.</p>
                       </div>
                     </div>
                   </div>
@@ -238,9 +238,9 @@ export default function App() {
                     <p className="text-[13px] font-bold uppercase tracking-widest text-zinc/60">E ENQUANTO ISSO:</p>
                     <ul className="space-y-6">
                       {[
-                        "Seus clientes se distraem com vídeos",
-                        "Seu conteúdo some em poucas horas",
-                        "E você precisa começar tudo de novo… todos os dias"
+                        "Seus clientes procuram no Google",
+                        "E encontram quem tem site",
+                        "Simples assim"
                       ].map((item, id) => (
                         <li key={id} className="flex gap-4 items-start">
                           <CheckCircle2 className="w-5 h-5 text-brand-blue mt-1 flex-shrink-0" />
@@ -251,13 +251,13 @@ export default function App() {
                   </div>
 
                   <div className="pt-8">
-                    <h3 className="text-2xl font-bold text-white mb-8 tracking-tight">AGORA IMAGINA O CONTRÁRIO</h3>
+                    <h3 className="text-2xl font-bold text-white mb-8 tracking-tight">O RESULTADO DE UMA ESTRUTURA PRÓPRIA</h3>
                     <div className="bg-brand-blue/95 text-white p-12 rounded-[6px] relative overflow-hidden group shadow-2xl shadow-brand-blue/10">
                       <Target className="absolute -bottom-4 -right-4 w-32 h-32 opacity-15" />
                       <div className="relative z-10 max-w-[480px]">
-                        <p className="text-[22px] font-bold leading-snug mb-4">Um lugar onde o cliente te encontra mesmo quando você não está fazendo nada.</p>
+                        <p className="text-[22px] font-bold leading-snug mb-4">Um site trabalhando para você todos os dias: atraindo visitantes, explicando seu valor e gerando contatos direto no seu WhatsApp.</p>
                         <p className="text-[11px] font-bold uppercase tracking-[0.2em] opacity-80">
-                          SEM DEPENDER DE CONTEÚDO CONSTANTE. SEM DANCINHA. SEM ESTRESSE.
+                          ESTRUTURA SÓLIDA | AUTORIDADE | RESULTADO CONSTANTE
                         </p>
                       </div>
                     </div>
@@ -272,7 +272,7 @@ export default function App() {
                   className="p-12 border border-white/[0.08] rounded-[6px] relative"
                 >
                   <Instagram className="absolute top-6 right-6 w-5 h-5 text-white/10" />
-                  <h3 className="text-[15px] font-bold mb-10 uppercase tracking-[0.2em] text-zinc">CICLO DE DEPENDÊNCIA</h3>
+                  <h3 className="text-[15px] font-bold mb-10 uppercase tracking-[0.2em] text-zinc">CICLO DE DEPENDÊNCIA DE REDES SOCIAIS</h3>
                   <ul className="space-y-8">
                     {[
                       "O algoritmo corta seu alcance do dia pra noite",
@@ -325,25 +325,28 @@ export default function App() {
           <Container>
             <motion.div {...fadeIn} className="text-center mb-10">
               <SectionTitle className="max-w-[1000px] mx-auto">
-                Negócios comuns passam a <span className="text-brand-blue">dominar</span> o digital.
+                Não é só um site bonito. É um site feito para <span className="text-brand-blue">gerar contato.</span>
               </SectionTitle>
+              <Paragraph className="mx-auto text-center mt-4">
+                Cada parte da página tem um objetivo: segurar atenção, explicar rápido e levar para ação.
+              </Paragraph>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               {[
                 { 
                   title: "Foco em Conversão", 
-                  desc: "Pensado para fazer o visitante clicar. Não só “achar bonito”.",
+                  desc: "Tudo pensado para gerar contato.",
                   image: "https://i.imgur.com/8LKpNae.png" 
                 },
                 { 
                   title: "Design Responsivo", 
-                  desc: "Experiência perfeita em qualquer dispositivo.",
+                  desc: "Funciona perfeitamente no celular.",
                   image: "https://i.imgur.com/j80m06A.png" 
                 },
                 { 
                   title: "Autoridade Digital", 
-                  desc: "Você deixa de ser “mais um” e passa a ser a referência.",
+                  desc: "Você deixa de parecer amador.",
                   image: "https://i.imgur.com/NVB2LDi.png" 
                 }
               ].map((item, i) => (
@@ -374,14 +377,14 @@ export default function App() {
               <div className="flex flex-col md:flex-row items-center gap-12">
                 <Zap className="w-8 h-8 text-brand-blue flex-shrink-0" />
                 <div className="text-center md:text-left flex-grow">
-                  <h4 className="text-2xl font-bold mb-4">Metodologia Estratégica</h4>
-                  <Paragraph className="text-[17px]">
-                    Nada é aleatório — tudo é estruturado para guiar o cliente até o contato de forma rápida.
+                  <h4 className="text-2xl font-bold mb-4">Contínuo. Simples. Direto.</h4>
+                  <Paragraph className="text-[17px] max-w-[400px]">
+                    Um site que funciona como seu vendedor 24 horas por dia.
                   </Paragraph>
                 </div>
                 <div className="text-center md:text-right">
                   <p className="text-5xl font-extrabold text-brand-blue tracking-tighter">100%</p>
-                  <p className="text-[11px] font-bold uppercase tracking-widest text-zinc mt-1">VENDAS</p>
+                  <p className="text-[11px] font-bold uppercase tracking-widest text-zinc mt-1">CONVERSÃO</p>
                 </div>
               </div>
             </motion.div>
@@ -394,11 +397,11 @@ export default function App() {
             <motion.div {...fadeIn} className="text-center mb-24">
               <span className="text-zinc font-bold uppercase tracking-[0.2em] text-[13px] mb-4 block">COM A ACUTIS É FÁCIL E RÁPIDO</span>
               <SectionTitle className="max-w-[700px] mx-auto">
-                Seu novo canal de vendas ativo em até <span className="whitespace-nowrap text-brand-blue">5 dias úteis.</span>
+                Seu site pronto para começar a receber clientes em <span className="whitespace-nowrap text-brand-blue">poucos dias.</span>
               </SectionTitle>
               <div className="flex flex-col items-center mt-10">
                 <Button conversion onClick={handleCTA} className="w-full sm:w-auto px-12 text-center">
-                  EU QUERO
+                  EU QUERO MEU SITE
                 </Button>
                 <p className="text-[12px] opacity-70 mt-4 font-medium text-zinc">
                   Sem compromisso • Resposta rápida
@@ -412,14 +415,13 @@ export default function App() {
                   <Target className="w-7 h-7 text-brand-blue" />
                   <div>
                     <h3 className="text-2xl font-bold mb-6">Site que leva o cliente à ação</h3>
-                    <p className="text-xl text-white font-bold italic mb-8 border-l-2 border-brand-blue/30 pl-6">Aqui tudo é para conversão.</p>
+                    <p className="text-xl text-white font-bold italic mb-8 border-l-2 border-brand-blue/30 pl-6">Estrutura pensada para conversão.</p>
                     <ul className="space-y-6">
                       {[
-                        "Integração com o WhatsApp",
-                        "Integração com checkouts",
-                        "Integração com agendamentos",
-                        "Comunicação que direciona",
-                        "Navegação sem distrações"
+                        "Integração com WhatsApp",
+                        "Navegação simples",
+                        "Comunicação direta",
+                        "Estrutura pensada para conversão"
                       ].map((li, idx) => (
                         <li key={idx} className="flex gap-3 items-center text-zinc text-[18px]">
                           <CheckCircle2 className="w-5 h-5 text-brand-blue/40" />
@@ -434,9 +436,9 @@ export default function App() {
                   <Filter className="w-7 h-7 text-brand-blue" />
                   <div>
                     <h3 className="text-2xl font-bold mb-6">Filtro de Curiosos</h3>
-                    <p className="text-xl text-zinc font-medium mb-10">Receba apenas quem realmente tem interesse em fechar.</p>
+                    <p className="text-xl text-zinc font-medium mb-10">Quem entra no seu site:</p>
                     <div className="space-y-4">
-                      {["Já entende o que você faz", "Já altamente interessado", "Pronto para decisão"].map((step, idx) => (
+                      {["Já entendeu o que você faz", "Já tem interesse", "Já vem mais preparado para fechar"].map((step, idx) => (
                         <div key={idx} className="p-6 border border-white/[0.04] bg-white/[0.02] rounded text-[17px] font-semibold text-zinc/80">
                           {step}
                         </div>
@@ -450,10 +452,10 @@ export default function App() {
                 <motion.div {...fadeIn} className="p-12 border border-white/[0.05] rounded-[6px] space-y-8">
                   <Search className="w-7 h-7 text-brand-blue" />
                   <div>
-                    <h3 className="text-2xl font-bold mb-6 text-white">Apareça no Google</h3>
-                    <Paragraph className="mb-8">Seu cliente já está procurando pelo seu serviço agora.</Paragraph>
+                    <h3 className="text-2xl font-bold mb-6 text-white">Seu cliente já está procurando</h3>
+                    <Paragraph className="mb-8">A questão é simples:</Paragraph>
                     <div className="p-10 bg-white/[0.03] border-l border-brand-blue/50 mb-10">
-                      <p className="text-2xl font-bold text-white italic">Ele encontra você ou seu concorrente?</p>
+                      <p className="text-2xl font-bold text-white italic">Ele encontra você… ou encontra outro</p>
                     </div>
                     <p className="text-brand-blue text-2xl font-bold tracking-tight">
                       Presença local estratégica para clientes prontos para contratar.
@@ -463,13 +465,13 @@ export default function App() {
 
                 <motion.div {...fadeIn} className="bg-brand-blue p-14 rounded-[6px] text-white">
                   <ShieldCheck className="w-8 h-8 mb-8" />
-                  <h3 className="text-4xl font-bold mb-6 title-tight">Tudo pronto, sem complicação</h3>
+                  <h3 className="text-4xl font-bold mb-6 title-tight">Sem complicação</h3>
                   <p className="text-lg font-medium mb-8 opacity-90 leading-relaxed">
-                    Nós cuidamos da tecnologia, da estrutura e da entrega. Você cuida dos novos clientes.
+                    Você não precisa entender de tecnologia. Não precisa aprender nada novo. Você envia as informações e recebe seu site pronto.
                   </p>
                   
                   <div className="flex flex-wrap gap-2 mb-12">
-                    {["Criação", "Estrutura", "Full-Suporte"].map((item) => (
+                    {["Simples", "Rápido", "Eficiente"].map((item) => (
                       <span key={item} className="px-4 py-2 bg-white/10 rounded text-[10px] font-bold uppercase tracking-widest">{item}</span>
                     ))}
                   </div>
@@ -628,8 +630,8 @@ export default function App() {
           <Container className="text-center">
             <motion.div {...fadeIn} className="max-w-[700px] mx-auto">
               <p className="text-2xl md:text-3xl font-medium text-white/90 leading-relaxed mb-12">
-                Você pode continuar tentando do jeito que está… <br className="hidden md:block" />
-                ou pode ter uma estrutura pensada pra <span className="text-brand-blue font-bold">gerar clientes todos os dias.</span>
+                Você pode continuar dependendo de post… <br className="hidden md:block" />
+                Ou pode ter um site que <span className="text-brand-blue font-bold">trabalha por você todos os dias.</span>
               </p>
               
               <div className="flex flex-col items-center">
@@ -660,12 +662,12 @@ export default function App() {
               
               <div className="max-w-[700px] mx-auto mb-10 space-y-8">
                 <p className="text-3xl md:text-5xl font-bold leading-tight tracking-tight text-white title-tight">
-                  Sua estrutura própria não é um custo, é a sua liberdade do algoritmo.
+                  Um site profissional não é luxo. <br /> É o básico para quem quer vender todos os dias.
                 </p>
                 
                 <div className="space-y-4">
                   <p className="text-brand-blue text-lg md:text-xl font-bold uppercase tracking-[0.2em]">
-                    Pare de depender. Comece a construir.
+                    Acutis Presença Digital
                   </p>
                   <p className="text-zinc/30 text-3xl md:text-4xl font-extrabold uppercase tracking-tight">
                     Presença Real.
@@ -675,7 +677,7 @@ export default function App() {
 
               <div className="flex flex-col items-center mb-12">
                 <Button conversion onClick={handleCTA} className="w-full sm:w-auto px-12">
-                  QUERO UMA PÁGINA DE VENDAS
+                  EU QUERO MEU SITE
                 </Button>
                 <p className="text-[12px] opacity-70 mt-4 font-medium text-zinc">
                   Sem compromisso • Resposta rápida
